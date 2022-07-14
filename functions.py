@@ -1,7 +1,9 @@
 # Python function with arguements and no return value
 
-def Multiplication(a,b):
-    multi = a*b
-    print("After calling the multiplication function: ", multi)
+def Multiplication():
+    x = 10
+    y = 20
+    multiply = x*y
+    return multiply
     
-Multiplication(4, 5)
+print("After calling the Multiplication function: ",Multiplication())
