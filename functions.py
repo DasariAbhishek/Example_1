@@ -1,8 +1,7 @@
-#Python function with no arguement and no return value    
-def Addition():
-    a = 10
-    b =20
-    sum = a + b
-    print('After calling the function :', sum)
+# Python function with arguements and no return value
 
-Addition()
+def Multiplication(a,b):
+    multi = a*b
+    print("After calling the multiplication function: ", multi)
+    
+Multiplication(4, 5)
